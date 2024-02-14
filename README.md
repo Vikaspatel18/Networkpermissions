@@ -1,3 +1,11 @@
+<html><head>
+ .alignnone {
+  max-width: 100%;
+  height: auto;
+  display: block; /* To prevent inline default space below images */
+}
+
+</head>
 <h2 dir="auto" tabindex="-1">Environments and Technologies Used</h2>
 <ul>
  	<li>Microsoft Azure (Virtual Machines/Domain Controller/Client Machine)</li>
@@ -9,7 +17,9 @@
 <ul>
  	<li dir="auto" tabindex="-1">We will be setting up shared network files and permissions in this lab. We need to create four folders on the DC-1 VM - "read-access", "read/write-access", "no-access", and "LABACCESS". Certain files will have specific permissions, and only designated people will be able to access them. Let's begin by navigating to the C:/ drive on the DC-1 machine and creating these four folders.</li>
 </ul>
-<a href="https://vikaspatel.tech/wp-content/uploads/2023/04/6-1.png"><img class="alignnone size-full wp-image-180" src="https://vikaspatel.tech/wp-content/uploads/2023/04/6-1.png" alt="" width="2612" height="1630" /></a>
+<a href="https://vikaspatel.tech/wp-content/uploads/2023/04/6-1.png">
+  <img class="alignnone size-full wp-image-180" src="https://vikaspatel.tech/wp-content/uploads/2023/04/6-1.png" alt="" />
+</a>
 <ul>
  	<li>Once the folders have been created, the next step is to share them on the network so that client-1 machine can access them. We also need to set the appropriate permissions for each folder in DC-1. For instance, "read-access" folder should have read-only permissions for domain users, "read/write access" folder should have read/write permissions for domain users, and "no-access" folder should have read/write permissions for domain admins only.</li>
 </ul>
@@ -59,3 +69,4 @@
 </div>
 </div>
 </div>
+</html>
