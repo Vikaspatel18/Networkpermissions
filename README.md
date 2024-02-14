@@ -1,10 +1,11 @@
 <html><head>
+ <style>
  .alignnone {
   max-width: 100%;
   height: auto;
   display: block; /* To prevent inline default space below images */
 }
-
+</style>
 </head>
 <h2 dir="auto" tabindex="-1">Environments and Technologies Used</h2>
 <ul>
