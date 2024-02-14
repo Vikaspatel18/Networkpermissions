@@ -1,4 +1,4 @@
-<html><head>
+<html><!--head>
  <style>
  .alignnone {
   max-width: 100%;
@@ -6,7 +6,7 @@
   display: block; /* To prevent inline default space below images */
 }
 </style>
-</head>
+</head-->
 <h2 dir="auto" tabindex="-1">Environments and Technologies Used</h2>
 <ul>
  	<li>Microsoft Azure (Virtual Machines/Domain Controller/Client Machine)</li>
